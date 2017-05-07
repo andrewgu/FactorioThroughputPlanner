@@ -1,24 +1,25 @@
-﻿Item,Unit Production,Duration,Mechanism,Throughput
+Item,Unit Production,Duration,Mechanism,Throughput
+Accumulator,1,10,Assembler,0.1
 Assembling Machine 1,1,0.5,Assembler,2
 Battery,1,5,Chemical Plant,0.2
 Black Science Pack,2,10,Assembler,0.2
-Blue Circuit,1,15,Assembler,0.066666667
+Blue Circuit,1,10,Assembler,0.1
 Blue Science Pack,1,12,Assembler,0.083333333
 Brick,1,3.5,Furnace,0.285714286
-Coal,1,12,Mine,0.083333333
+Coal,1,2,Mine,0.5
 Concrete,10,10,Assembler,1
 Copper Cable,2,0.5,Assembler,4
 Copper Ore,1,2,Mine,0.5
 Copper Plate,1,3.5,Furnace,0.285714286
-Electric Engine Unit,1,20,Assembler,0.05
+Electric Engine Unit,1,10,Assembler,0.1
 Electric Furnace,1,5,Assembler,0.2
 Electric Mining Drill,1,2,Assembler,0.5
 Engine Unit,1,10,Assembler,0.1
-Firearm Magazine,1,2,Assembler,0.5
+Firearm Magazine,1,4,Assembler,0.25
 Green Circuit,1,0.5,Assembler,2
 Green Science Pack,1,6,Assembler,0.166666667
 Grenade,1,8,Assembler,0.125
-Gun Turret,1,10,Assembler,0.1
+Gun Turret,1,8,Assembler,0.125
 Inserter,1,0.5,Assembler,2
 Iron Gear Wheel,1,0.5,Assembler,2
 Iron Ore,1,2,Mine,0.5
@@ -28,15 +29,17 @@ Piercing Rounds Magazine,1,3,Assembler,0.333333333
 Pipe,1,0.5,Assembler,2
 Plastic,2,1,Chemical Plant,2
 Purple Science Pack,2,14,Assembler,0.142857143
-Red Circuit,1,8,Assembler,0.125
+Red Circuit,1,6,Assembler,0.166666667
 Red Science Pack,1,5,Assembler,0.2
+Solar Panel,1,10,Assembler,0.1
 Speed Module 1,1,15,Assembler,0.066666667
 Steel,1,17.5,Furnace,0.057142857
 Stone,1,1.75,Mine,0.571428571
-Transport Belt,2,0.5,Assembler,4
-Yellow Science Pack,2,14,Assembler,0.142857143
-Water,60,1,Pump,60
-Sulfuric Acid,5,1,Chemical Plant,5
 Sulfur,2,1,Chemical Plant,2
-Solar Panel,1,10,Assembler,0.1
-Accumulator,1,10,Assembler,0.1
+Sulfuric Acid,50,1,Chemical Plant,50
+Transport Belt,2,0.5,Assembler,4
+Water,1200,1,Pump,1200
+Yellow Science Pack,2,14,Assembler,0.142857143
+Red Transport Belt,1,0.5,Assembler,2
+Blue Transport Belt,1,0.5,Assembler,2
+Laser Turret,1,20,Assembler,0.05

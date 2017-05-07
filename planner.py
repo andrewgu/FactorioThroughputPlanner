@@ -12,6 +12,7 @@ BLUE_ASSEMBLER_PRODUCTIVITY = 0.75
 ELECTRIC_MINE_PRODUCTIVITY = 1.0
 CHEMICAL_PLANT_PRODUCTIVITY = 1.25
 ELECTRIC_FURNACE_PRODUCTIVITY = 2
+CENTRIFUGE_PRODUCTIVITY = 0.75
 
 PRODUCTIVITY_MODIFIERS = {
     "Assembler" : BLUE_ASSEMBLER_PRODUCTIVITY,
@@ -69,7 +70,7 @@ class CostData:
         self.throughputs = throughputLookup
         
         with open(inputFile, 'rb') as srcFile:
-            srcFile.seek(3)
+            #srcFile.seek(3)
             csvFile = csv.DictReader(srcFile, dialect='excel')
             
             for row in csvFile:
@@ -122,7 +123,7 @@ def load_throughputs():
     throughputLookup = {}
     
     with open(THROUGHPUT_FILE, 'rb') as f:
-        f.seek(3) # Skip the utf-8 BOM because Python doesn't play well with it.
+        #f.seek(3) # Skip the utf-8 BOM because Python doesn't play well with it.
         reader = csv.DictReader(f, dialect='excel')
         for row in reader:
             dataRow = ThroughputData(row)

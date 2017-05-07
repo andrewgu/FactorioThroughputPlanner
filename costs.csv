@@ -1,75 +1,75 @@
-﻿Output,Input,Cost
-Copper Plate,Copper Ore,1
-Iron Plate,Iron Ore,1
-Steel,Iron Plate,5
-Iron Gear Wheel,Iron Plate,2
-Copper Cable,Copper Plate,1
-Red Science Pack,Copper Plate,1
-Red Science Pack,Iron Gear Wheel,1
-Green Science Pack,Inserter,1
-Green Science Pack,Transport Belt,1
-Green Circuit,Iron Plate,1
-Green Circuit,Copper Cable,3
-Transport Belt,Iron Plate,1
-Transport Belt,Iron Gear Wheel,1
-Inserter,Iron Plate,1
-Inserter,Iron Gear Wheel,1
-Inserter,Green Circuit,1
+Output,Input,Cost
+Accumulator,Battery,5
+Accumulator,Iron Plate,2
+Assembling Machine 1,Green Circuit,3
+Assembling Machine 1,Iron Gear Wheel,5
+Assembling Machine 1,Iron Plate,9
+Battery,Iron Plate,1
+Battery,Copper Plate,1
+Battery,Sulfuric Acid,20
+Black Science Pack,Piercing Rounds Magazine,1
+Black Science Pack,Grenade,1
+Black Science Pack,Gun Turret,1
+Blue Circuit,Sulfuric Acid,5
+Blue Circuit,Green Circuit,20
+Blue Circuit,Red Circuit,2
 Blue Science Pack,Electric Mining Drill,1
 Blue Science Pack,Red Circuit,1
 Blue Science Pack,Engine Unit,1
+Brick,Stone,2
+Copper Cable,Copper Plate,1
+Copper Plate,Copper Ore,1
+Electric Engine Unit,Engine Unit,1
+Electric Engine Unit,Green Circuit,2
+Electric Engine Unit,Lubricant,15
+Electric Furnace,Steel,10
+Electric Furnace,Brick,10
+Electric Furnace,Red Circuit,5
 Electric Mining Drill,Iron Plate,10
 Electric Mining Drill,Iron Gear Wheel,5
 Electric Mining Drill,Green Circuit,3
-Red Circuit,Green Circuit,2
-Red Circuit,Plastic,2
-Red Circuit,Copper Cable,4
 Engine Unit,Steel,1
 Engine Unit,Iron Gear Wheel,1
 Engine Unit,Pipe,2
-Pipe,Iron Plate,1
-Piercing Rounds Magazine,Firearm Magazine,1
-Piercing Rounds Magazine,Copper Plate,4
-Piercing Rounds Magazine,Steel,1
-Firearm Magazine,Iron Plate,2
+Firearm Magazine,Iron Plate,4
+Green Circuit,Iron Plate,1
+Green Circuit,Copper Cable,3
+Green Science Pack,Inserter,1
+Green Science Pack,Transport Belt,1
 Grenade,Coal,10
 Grenade,Iron Plate,5
 Gun Turret,Iron Gear Wheel,10
 Gun Turret,Copper Plate,10
 Gun Turret,Iron Plate,20
-Black Science Pack,Piercing Rounds Magazine,1
-Black Science Pack,Grenade,1
-Black Science Pack,Gun Turret,1
+Inserter,Iron Plate,1
+Inserter,Iron Gear Wheel,1
+Inserter,Green Circuit,1
+Iron Gear Wheel,Iron Plate,2
+Iron Plate,Iron Ore,1
+Piercing Rounds Magazine,Firearm Magazine,1
+Piercing Rounds Magazine,Copper Plate,5
+Piercing Rounds Magazine,Steel,1
+Pipe,Iron Plate,1
 Purple Science Pack,Assembling Machine 1,1
 Purple Science Pack,Electric Engine Unit,1
 Purple Science Pack,Electric Furnace,1
-Assembling Machine 1,Green Circuit,3
-Assembling Machine 1,Iron Gear Wheel,5
-Assembling Machine 1,Iron Plate,9
-Electric Engine Unit,Engine Unit,1
-Electric Engine Unit,Green Circuit,2
-Electric Engine Unit,Lubricant,2
-Electric Furnace,Steel,15
-Electric Furnace,Brick,10
-Electric Furnace,Red Circuit,5
-Brick,Stone,2
-Yellow Science Pack,Copper Cable,40
-Yellow Science Pack,Battery,1
-Yellow Science Pack,Blue Circuit,1
-Yellow Science Pack,Speed Module 1,1
-Battery,Iron Plate,1
-Battery,Copper Plate,1
-Battery,Sulfuric Acid,2
-Sulfuric Acid,Sulfur,5
-Sulfuric Acid,Iron Plate,1
-Sulfuric Acid,Water,10
-Blue Circuit,Sulfuric Acid,0.5
-Blue Circuit,Green Circuit,20
-Blue Circuit,Red Circuit,2
-Speed Module 1,Green Circuit,5
-Speed Module 1,Red Circuit,5
+Red Circuit,Green Circuit,2
+Red Circuit,Plastic,2
+Red Circuit,Copper Cable,4
+Red Science Pack,Copper Plate,1
+Red Science Pack,Iron Gear Wheel,1
 Solar Panel,Steel,5
 Solar Panel,Green Circuit,15
 Solar Panel,Copper Plate,5
-Accumulator,Battery,5
-Accumulator,Iron Plate,2
+Speed Module 1,Green Circuit,5
+Speed Module 1,Red Circuit,5
+Steel,Iron Plate,5
+Sulfuric Acid,Sulfur,5
+Sulfuric Acid,Iron Plate,1
+Sulfuric Acid,Water,100
+Transport Belt,Iron Plate,1
+Transport Belt,Iron Gear Wheel,1
+Yellow Science Pack,Copper Cable,30
+Yellow Science Pack,Battery,1
+Yellow Science Pack,Blue Circuit,3
+Yellow Science Pack,Speed Module 1,1
