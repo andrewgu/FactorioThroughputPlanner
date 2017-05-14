@@ -1,4 +1,4 @@
-Item,Unit Production,Duration,Mechanism,Throughput
+﻿Item,Unit Production,Duration,Mechanism,Throughput
 Accumulator,1,10,Assembler,0.1
 Assembling Machine 1,1,0.5,Assembler,2
 Battery,1,5,Chemical Plant,0.2

@@ -39,6 +39,7 @@ class ThroughputData:
         if not self.mechanism in PRODUCTIVITY_MODIFIERS:
             raise ValueError("Mechanism for fabrication is not recognized: {0}".format(self.mechanism))
     
+        print(csvRow)
         self.display_name = str(csvRow['Item'])
         self.normalized_name = normalize_name(self.display_name)
         self.output_count = float(csvRow['Unit Production'])
@@ -70,7 +71,7 @@ class CostData:
         self.throughputs = throughputLookup
         
         with open(inputFile, 'rb') as srcFile:
-            #srcFile.seek(3)
+            srcFile.seek(3)
             csvFile = csv.DictReader(srcFile, dialect='excel')
             
             for row in csvFile:
@@ -123,7 +124,7 @@ def load_throughputs():
     throughputLookup = {}
     
     with open(THROUGHPUT_FILE, 'rb') as f:
-        #f.seek(3) # Skip the utf-8 BOM because Python doesn't play well with it.
+        f.seek(3) # Skip the utf-8 BOM because Python doesn't play well with it.
         reader = csv.DictReader(f, dialect='excel')
         for row in reader:
             dataRow = ThroughputData(row)
@@ -146,7 +147,8 @@ def recursive_compute_resources_no_ceil(norm_name, target_throughput, throughput
     if cost_data.contains(norm_name):
         costRecord = cost_data.get_record(norm_name)
         for input_norm_name in costRecord.inputs:
-            input_target_throughput = target_throughput * costRecord.inputs[input_norm_name]
+            input_target_throughput = target_throughput / record.output_count * costRecord.inputs[input_norm_name]
+            print("Output {0} throughput {1} requires input {2} target {3}".format(norm_name, target_throughput, input_norm_name, input_target_throughput))
             recursive_compute_resources_no_ceil(input_norm_name, input_target_throughput, throughput_lookup, cost_data, resource_list)
     
 def pooled_recursive_compute_resources(product_normalized_name, desired_throughput, throughputLookup, costData, resourceLookup):
